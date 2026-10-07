@@ -30,8 +30,8 @@ from statsmodels.stats.multitest import multipletests
 # ======================================================================
 # CONFIGURATION
 # ======================================================================
-INPUT_FILE  = "SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad"
-CONFIG_FILE = "config.json"
+INPUT_FILE  = "./SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad"
+CONFIG_FILE = "./config.json"
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
 
 with open(os.path.join(SCRIPT_DIR, CONFIG_FILE), "r") as _f:

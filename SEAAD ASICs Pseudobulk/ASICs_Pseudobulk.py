@@ -11,8 +11,8 @@ import os, json, sys, gc
 import string
 import matplotlib.font_manager as fm
 
-INPUT_FILE  = "SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad"
-CONFIG_FILE = "config.json"
+INPUT_FILE  = "./SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad"
+CONFIG_FILE = "./config.json"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
