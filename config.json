@@ -1,0 +1,10 @@
+{
+ "cell_type": ["L4 IT","L5 IT","L5 ET", "L6 IT Car3", "Sst"],
+ "subclass_col": "Subclass",
+ "supertype_col": "Supertype",
+ "supertype_filter": [""],
+ "sex_filter": "Both",
+ "gene_list": ["ASIC1","ASIC2","ASIC5"],
+ "age_col": "Age at Death",
+ "epoch_cutoff": null
+}
